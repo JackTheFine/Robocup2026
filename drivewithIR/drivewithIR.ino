@@ -113,7 +113,7 @@ void drive(float angle) {
   digitalWrite(m4p2, xb);
 }
 
-int irLogic(){
+int irLogic(){// old values
   int driveValues[16] = \
   {30, 50, 90, 180,\
     180, 180, 180, 180,\
